@@ -79,12 +79,12 @@ Execute the following Windows CMD command to analyze the project:
 Then you can get the dependency issue report in your specified directory (e.g., **D:\Report\resultFile.xml**).
 
 >>> Command explanation:
->>>>(1)	-f=pom file : Specify the project under analysis;
+>>>>(1) -f=pom file : Specify the project under analysis;
 
->>>>(2)	-DresultFilePath=output issue report directory : Output the issue report to the specified file;
+>>>>(2) -DresultFilePath=output issue report directory : Output the issue report to the specified file;
 
->>>>(3)	-DdetectClass=Boolean : Specify the tool whether reports the class level conflicts or not;
+>>>>(3) -DdetectClass=Boolean : Specify the tool whether reports the class level conflicts or not;
 
->>>>(4)	-Dappend=Boolean : Specify the result output mode (whether in append mode or not). 
+>>>>(4) -Dappend=Boolean : Specify the result output mode (whether in append mode or not). 
 
 
